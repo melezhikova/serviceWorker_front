@@ -28,6 +28,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-restricted-globals": "^0.2.0",
+    "file-loader": "^6.2.0",
     "html-loader": "^1.0.0",
     "html-webpack-plugin": "^4.0.3",
     "jest": "^25.2.4",
@@ -43,7 +44,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "csv-parse": "^4.8.8"
+    "csv-parse": "^4.8.8",
+    "file-loader": "^6.2.0"
   },
   "repository": {
     "type": "git",
