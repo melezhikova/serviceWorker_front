@@ -14,7 +14,7 @@ import News from './news';
 
   setTimeout(async () => {
     try {
-      const response = await fetch('http://localhost:7070/?method=allNews');
+      const response = await fetch('https://service-worker-back.herokuapp.com/?method=allNews');
       const data = await response.json().then((news) => {
         if (news) {
           try {
