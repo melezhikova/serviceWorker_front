@@ -1,0 +1,42 @@
+p {
+    color: black;
+}
+
+.picture {
+    width: 450px;
+    height: 500px;
+    background: url('../img/loading.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.news-container {
+    width: 450px;
+    height: 500px;
+    padding: 10px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newsBody {
+    display: flex;
+}
+
+.newsImage {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

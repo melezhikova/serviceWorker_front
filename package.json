@@ -1,0 +1,58 @@
+{
+  "name": "serviceworker_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "doc": "jsdoc -c jsdoc.conf.json",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:doc": "npm run doc",
+    "show:doc": "live-server doc",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.2.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-restricted-globals": "^0.2.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.3",
+    "jest": "^25.2.4",
+    "jsdoc": "^3.6.3",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "workbox-webpack-plugin": "^5.1.2",
+    "worker-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "csv-parse": "^4.8.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melezhikova/serviceWorker_front.git"
+  },
+  "author": "ludmila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melezhikova/serviceWorker_front/issues"
+  },
+  "homepage": "https://github.com/melezhikova/serviceWorker_front#readme"
+}
